@@ -7,6 +7,7 @@
 </head>
 <body>
     <script>
+        //soal no 1
         console.log("｡･::･ﾟ★｡･::･ﾟ☆");
         console.log("1. data siswa dan nilai");
         console.log("★・・・・・・★");
@@ -17,6 +18,22 @@
         status_siswa = true;
         console.log("status siswa:", status_siswa);
         console.log("★・・・・・・★");
+
+        // soal nomor 2
+        console.log("2. hitung nilai akhir");
+
+        const nilai_tugas = 80;
+        const nilai_uts = 85;
+        const nilai_uas = 90;
+
+        const nilai_akhir = (nilai_tugas * 0.3) +  (nilai_uts * 0.3) +  (nilai_uas * 0.4);
+        console.log("nilai akhir: " + nilai_akhir);
+
+        const status_kelulusan = (nilai_akhir => 75) ? "lulus": "remidial";
+        console.log("status kelulusan: " + status_kelulusan);
+
+        console.log("★・・・・・・★");
+
 
 
 
